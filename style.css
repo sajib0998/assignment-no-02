@@ -429,12 +429,12 @@ line-height: normal;
         margin-top: 300px;
         justify-content: center;
         align-items: center;
-        /* margin-left: -100px; */
+        margin-left: 50px;
     }
     .funny-video{
         margin-top: 250px;
         align-items: center;
-        /* margin-left: -150px; */
+        margin-left: 20px;
         
     }
     .online{   
@@ -442,11 +442,11 @@ line-height: normal;
     flex-direction: column;
     justify-content: center;
     text-align: justify;
-    /* margin-left: -100px; */
+    margin-left: 100px;
     }
     .main-paly-section{
         margin-top: 1500px;
-        /* margin-left: -250px; */
+        margin-left: 50px;
     }
     .main-play{
         flex-direction: column;
@@ -459,7 +459,7 @@ line-height: normal;
     }
     .box-tnd{
         grid-template-columns: repeat(3, 1fr);
-        /* margin-left: -120px; */
+        margin-left: -50px;
     }
     footer{
         width: 100%;
@@ -473,16 +473,16 @@ line-height: normal;
     }
     .footer-head{
         grid-template-columns: repeat(3, 1fr);
-        /* margin-left: -180px; */
+        margin-left: 90px;
         
     }
     .privasy{
         grid-template-columns: repeat(2, 1fr);
-        /* margin-left: -80px; */
+        margin-left: 50px;
         
     }
     .icon{
-        /* margin-left: -60px; */
+        margin-left: 60px;
     }
     .footer-dis{
         /* margin-left: -80px; */
