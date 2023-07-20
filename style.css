@@ -9,7 +9,7 @@
     justify-content: space-around;
     align-items: center;
     background: #FFF;
-    box-shadow: 2px 2px lightblue;
+    box-shadow: 2px ;
     padding: 30px;
 }
 .menu{
@@ -226,17 +226,19 @@ margin-left: 720px;
 }
 .box-section{
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     margin: 100px 160px;
-
+    background-color: white;
 }
 .box-tnd{
     width: 500px;
     height: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
     align-items: center;
+    
     gap: 40px;
-    margin: 50px 100px;
+    padding: 130px 30px 50px 10px;
 }
 
 
@@ -324,24 +326,25 @@ align-items: center;
 }
 .box-btn:hover{
     border: 1px solid #F948B2;
-    padding: 20px;
+    padding: 10px;
 }
 footer{
     padding: 100px;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-color:#0B0223;
 }
 .footer{
-    margin: 30px 100px 30px -30px;
+    margin: 30px 100px 30px -100px;
     
     
 }
 .footer-head{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
     align-items: center;
-    margin: 20px 0px;
+    padding: 20px 100px;
     color: #FFF;
 }
 .footer-head > h3{
@@ -349,7 +352,8 @@ footer{
     text-align: center;
 }
 .privasy{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     margin: 20px 0px;
     color: rgba(255, 255, 255, 0.60);
@@ -392,4 +396,154 @@ line-height: normal;
 .icon{
     width: 100%;
     margin-left: 500px;
+}
+
+
+
+
+/* responsiblity */
+
+
+@media screen and (max-width:576px) {
+    *{
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main-menu{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 70px;
+        align-items: center;
+    }
+    nav > ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container{
+        flex-direction: column;
+        margin-top: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .funny-video{
+        margin-top: 250px;
+        align-items: center;
+        
+    }
+    .online{   
+    margin-left: 100px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    }
+    .main-paly-section{
+        margin-top: 1500px;
+    }
+    .main-play{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .extra-pic{
+        margin-left: 250px;
+        margin-top: -30px;
+    }
+    .box-tnd{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: -180px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    .footer-head{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: -80px;
+        
+    }
+    .privasy{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 80px;
+        background-color: ;
+    }
+    .icon{
+        margin-left: 100px;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .main-menu{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 70px;
+        align-items: center;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 300px;
+        align-items: center;
+    }
+    .funny-video{
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+    .funny-video-head{
+        margin-left: -600px;
+    }
+    .funny-video-discription{
+        margin-left: -600px;
+    }
+    .online{
+        flex-direction:column;
+        margin-left: 80px;
+    }
+    .main-paly-section{
+        margin-top: 1300px;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .extra-pic{
+        margin-left: 180px;
+        margin-top: -30px;
+    }
+    .box-tnd{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        
+    }
+    .footer-head{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 100px;
+        
+    }
+    .privasy{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 300px;
+        background-color: ;
+    }
+    .icon{
+        margin-left: 400px;
+    }
+    .menu2{
+        margin-left: 100px;
+    }
+    .footer-dis{
+        margin-left: 100px;
+    }
+    .box-tnd{
+        margin-left: 100px;
+    }
+    .main-play{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
