@@ -415,20 +415,24 @@ line-height: normal;
         justify-content: center;
         margin-top: 70px;
         align-items: center;
+        margin-left: 70px;
     }
     nav > ul{
         flex-direction: column;
         justify-content: center;
+        margin-left: 10px;
     }
     .container{
         flex-direction: column;
         margin-top: 300px;
         justify-content: center;
         align-items: center;
+        margin-left: 100px;
     }
     .funny-video{
         margin-top: 250px;
         align-items: center;
+        margin-left: 150px;
         
     }
     .online{   
@@ -436,9 +440,11 @@ line-height: normal;
     flex-direction: column;
     justify-content: center;
     text-align: justify;
+    margin-left: 100px;
     }
     .main-paly-section{
         margin-top: 1500px;
+        margin-left: 250px;
     }
     .main-play{
         flex-direction: column;
@@ -446,7 +452,7 @@ line-height: normal;
         text-align: center;
     }
     .extra-pic{
-        margin-left: 250px;
+        margin-left: 100px;
         margin-top: -30px;
     }
     .box-tnd{
@@ -457,19 +463,23 @@ line-height: normal;
         flex-direction: column;
         justify-content: center;
         height: 100vh;
+        margin-left: 30px;
     }
     .footer-head{
         grid-template-columns: repeat(3, 1fr);
-        margin-left: -80px;
+        margin-left: -90px;
         
     }
     .privasy{
         grid-template-columns: repeat(2, 1fr);
         margin-left: 80px;
-        background-color: ;
+        
     }
     .icon{
-        margin-left: 100px;
+        margin-left: 60px;
+    }
+    .footer-dis{
+        margin-left: 80px;
     }
 }
 
