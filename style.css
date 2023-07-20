@@ -459,7 +459,7 @@ line-height: normal;
     }
     .box-tnd{
         grid-template-columns: repeat(3, 1fr);
-        margin-left: -50px;
+        margin-left: -150px;
     }
     footer{
         width: 100%;
@@ -474,19 +474,21 @@ line-height: normal;
     }
     .footer-head{
         grid-template-columns: repeat(3, 1fr);
-        margin-right: 100px;
+        margin-left: -200px;
         
     }
     .privasy{
         grid-template-columns: repeat(2, 1fr);
-        margin-right: 100px;
+        margin-left: -10px;
         
     }
     .icon{
-        margin-right: 100px;
+        width: 400px;
+        display: flex;
+        margin-left: -10px;
     }
     .footer-dis{
-        margin-right: 100px;
+        margin-left: 10px;
     }
 }
 
