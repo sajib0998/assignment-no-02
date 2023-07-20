@@ -460,7 +460,7 @@ line-height: normal;
     }
     .box-tnd{
         grid-template-columns: repeat(3, 1fr);
-        margin-left: -180px;
+        margin-left: -120px;
     }
     .footer{
         flex-direction: column;
