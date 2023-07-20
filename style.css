@@ -336,9 +336,9 @@ footer{
     padding: 20px;
     /* margin-right: 50px; */
 }
-/* .footer{
+.footer{
     margin: 100px 200px 100px 150px;
-     */
+    
     
 }
 .footer-head{
@@ -466,23 +466,23 @@ line-height: normal;
         flex-direction: column;
         justify-content: center;
         height: 100vh;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
     .footer-head{
         grid-template-columns: repeat(3, 1fr);
-        margin-left: -90px;
+        /* margin-left: -90px; */
         
     }
     .privasy{
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 80px;
+        /* margin-left: 80px; */
         
     }
     .icon{
-        margin-left: 60px;
+        /* margin-left: 60px; */
     }
     .footer-dis{
-        margin-left: 80px;
+        /* margin-left: 80px; */
     }
 }
 
