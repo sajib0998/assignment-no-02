@@ -521,7 +521,7 @@ line-height: normal;
         margin-left: 80px;
     }
     .main-paly-section{
-        margin-top: 1300px;
+        margin-top: 1500px;
         flex-direction: column;
         margin-left: 100px;
     }
@@ -531,23 +531,27 @@ line-height: normal;
     }
     .box-tnd{
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 10px;
+        /* margin-left: -600px; */
+        padding: 0;
     }
     .footer{
+        width: 100%;
+        height: 100vh;
         flex-direction: column;
         justify-content: center;
-        height: 100vh;
+        
         
     }
     .footer-head{
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
+        /* padding: 0; */
         
     }
     .privasy{
         grid-template-columns: repeat(2, 1fr);
         margin-left: 300px;
-        background-color: ;
     }
     .icon{
         margin-left: 400px;
@@ -556,7 +560,7 @@ line-height: normal;
         margin-left: 100px;
     }
     .footer-dis{
-        margin-left: 100px;
+        margin-left: -500px;
     }
     .box-tnd{
         margin-left: 100px;
