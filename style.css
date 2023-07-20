@@ -473,7 +473,7 @@ line-height: normal;
     }
     .footer-head{
         grid-template-columns: repeat(3, 1fr);
-        margin-left: -300px;
+        margin-right: 100px;
         
     }
     .privasy{
@@ -482,7 +482,7 @@ line-height: normal;
         
     }
     .icon{
-        margin-left: -260px;
+        margin-left: -60px;
     }
     .footer-dis{
         /* margin-left: -80px; */
